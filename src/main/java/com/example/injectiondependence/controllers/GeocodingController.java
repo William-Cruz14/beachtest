@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "frontbeach.vercel.app")
+@CrossOrigin(origins = "*")
 public class GeocodingController {
     @Autowired
     private GeocodingService geocodingService;
