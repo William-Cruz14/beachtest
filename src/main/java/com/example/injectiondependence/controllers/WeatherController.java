@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-
+@CrossOrigin(origins = "frontbeach.vercel.app")
 @RequestMapping("/api")
 public class WeatherController {
 
