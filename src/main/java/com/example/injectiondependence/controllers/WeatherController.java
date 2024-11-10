@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://beachtest.onrender.com")
 @RequestMapping("/api")
 public class WeatherController {
 
